@@ -1,0 +1,28 @@
+COMANDOS GIT:
+-------------
+1. Contar un repositorio en la nube
+2. Crear una carpeta en tu directorio local (Backup-Pruebas)
+3. Primer comando:
+   Configuración de email y luego de usuario
+    git config --global user.email "correo@correo.com"
+   Verificar su correo:
+    git config user.email 
+
+   Configurar el usuario:
+    git config --global user.name "TU USUARIO"
+   Verificamos:
+    git config user.name
+4. Proceso de clonación:
+   git clone URL DEL REPOSITORIO
+
+5. Subir información al repositorio (Previamente tienes que estar en la raiz)
+   git status     (Revisar si tu directorio local ha sufrido cambios)
+   git add .      (Agrega los cambios)
+   git commit -m "Mensaje referenciado"
+   git push       (Publicar la información)
+   Solicitar tus credenciales de acceso (Usuario y tu contraseña)
+
+6. Actualizar repositorio local con los cambios en la nube
+   git pull
+
+
